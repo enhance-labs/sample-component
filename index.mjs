@@ -1,6 +1,6 @@
 import CustomElement from '@enhance-labs/custom-element'
 
-class SampleComponent extends CustomElement {
+export default class SampleComponent extends CustomElement {
   constructor() {
     super()
     this.heading = ''
